@@ -17,8 +17,17 @@ folder_p = Path('input/').rglob('*.png')
 folder_j = Path('input/').rglob('*.jpg')
 files_in = [x for x in folder_p] + [x for x in folder_j]
 
+# remove old prediction file
+try:
+    os.remove("output/prediction.txt")
+except:
+    pass
+
 # prediction loop
-print("#### Prediction Results ####")
+print("#### Prediction Results ####" + '\n')
+
+f = open("output/prediction.txt", "a")
+f.write("#### Prediction Results ####" + '\n')
 
 count = 0
 
@@ -42,7 +51,13 @@ for i in files_in:
     else:
         prediction = 'cat'
 
-    print(str(inputImage) + ": " + str(prediction))
+    print(str(inputImage) + ": " + str(prediction) + '\n')
+
+    # write into text file
+    f = open("output/prediction.txt", "a")
+    f.write(str(inputImage) + ": " + str(prediction) + '\n')
 
     count = count + 1
+
+print("Write into file success!, Please check at \"output/\" folder.")
 
