@@ -1,5 +1,3 @@
 @ECHO ON
-py simple-predict.py
-
-
-
+py -3 simple-predict.py
+timeout 10

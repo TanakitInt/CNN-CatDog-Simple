@@ -1,10 +1,3 @@
 #### Prediction Results ####
-input\Cat-Meowing-Non-Stop-Blog-Header-800x600.png: cat
-input\c1_1749369_190913152539.jpg: cat
-input\cat-410261.jpg: dog
-input\Cc-1180413342-scaled.jpg: dog
-input\GettyImages-1199242002-1-scaled-1.jpg: dog
-input\image.jpg: dog
-input\kitten-440379.jpg: dog
-input\kitten-510651.jpg: dog
-input\Layer-1704-1920x840-1.jpg: dog
+input\_111434467_gettyimages-1143489763.jpg: cat
+Total file(s): 1

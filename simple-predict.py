@@ -57,7 +57,15 @@ for i in files_in:
     f = open("output/prediction.txt", "a")
     f.write(str(inputImage) + ": " + str(prediction) + '\n')
 
+    f.close()
+
     count = count + 1
 
+# write total file(s)
+f = open("output/prediction.txt", "a")
+f.write("Total file(s): " + str(count) + '\n')
+f.close()
+
+print("Total file(s): " + str(count) + '\n')
 print("Write into file success!, Please check at \"output/\" folder.")
 
