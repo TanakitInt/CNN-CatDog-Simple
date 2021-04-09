@@ -1,3 +1,13 @@
 #### Prediction Results ####
-input\_111434467_gettyimages-1143489763.jpg: cat
-Total file(s): 1
+input\orange-car-hp-right-mercedez.png: dog
+input\61e5ddce35cd9381e11de8f0257a88a302777bcc.jpg: dog
+input\image.jpg: dog
+input\image2.jpg: dog
+input\index.jpg: dog
+input\maxresdefault.jpg: dog
+input\p07ryyyj.jpg: cat
+input\pug-2648774_1920.jpg: dog
+input\strap-snouted-brown-snake.jpg: dog
+input\SuperStrata_Studio_White_SideView_2370.0.jpg: cat
+input\_117090286_mediaitem117090284.jpg: cat
+Total file(s): 11
